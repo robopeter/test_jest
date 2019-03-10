@@ -1,2 +1,3 @@
-export function someGetter (/* state */) {
+export function getMyValTwoX (state) {
+  return state.myVal * 2
 }

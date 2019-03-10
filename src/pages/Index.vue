@@ -1,6 +1,7 @@
 <template>
   <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
+    <myvalwidget />
+
   </q-page>
 </template>
 
@@ -8,7 +9,13 @@
 </style>
 
 <script>
+
+import myvalwidget from '../components/myvalwidget'
+
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  components: {
+    myvalwidget
+  }
 }
 </script>
